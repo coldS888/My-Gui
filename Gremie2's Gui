@@ -1209,11 +1209,13 @@ local Section = Tab:NewSection("Game Gui")
 
 -- Toggles
 
-Section:NewToggle("Zombie Attack Gui", "Zombie Attack GUI", function(state)
+Section:NewToggle("Zombie Attack Kill All", "Kill all zombies when execute this", function(state)
     if state then
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/WellbornBear/haha-script-go-brrrrrrrrrrrrrrrrr/scripts/Zombie_attack_silent.lua',true))()
+
     else
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/WellbornBear/haha-script-go-brrrrrrrrrrrrrrrrr/scripts/Zombie_attack_silent.lua',true))()
+
     end
 end)
 
