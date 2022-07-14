@@ -1205,7 +1205,7 @@ local Section = Tab:NewSection("My Channel Is Gremie2, Please Subscribe For More
 -- Tabs
 
 local Tab = Window:NewTab("Other Gui")
-local Section = Tab:NewSection("Section Name")
+local Section = Tab:NewSection("Game Gui")
 
 -- Toggles
 
